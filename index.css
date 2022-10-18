@@ -1,0 +1,66 @@
+body { background-color: rgb(196, 196, 196) ;}
+
+@font-face {
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/abrilfatface/v19/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4m0qyriQwlOrhSvowK_l5-eRZOf-I.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-fCZM.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+h1 , h2{font-family:merriweather;}
+p{font-family:"Abril Fatface";}
+h1, h2, p{ text-align: center;
+    }
+
+Table{table-layout: fixed;
+    width:75%;
+    margin: 0 auto;
+    border:1px solid black;
+    margin-top: 20px;
+    border-collapse: collapse;  }
+
+th, td {
+  padding: 10px;}
+th {
+    font-weight: bold;
+    border-bottom:1px solid black;
+    text-align: left;}
+
+thead th:nth-child(1) {
+        width: 15%;
+      }
+thead th:nth-child(2) {
+        width: 10%;
+      }    
+
+td{border-bottom:1px solid black;}
+
+span{background-color:bisque;}
+
+
+#information {  font-family:Merriweather;
+                font-weight:italic;
+                background-color:rgb(196, 196, 196);
+                color:blue;
+                transition:1s;}
+
+#information :hover {color:red;}
